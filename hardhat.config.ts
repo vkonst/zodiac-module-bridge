@@ -70,6 +70,10 @@ export default {
       ...sharedNetworkConfig,
       url: "https://rpc-mainnet.maticvigil.com",
     },
+    mumbai: {
+      ...sharedNetworkConfig,
+      url: "https://rpc-mumbai.maticvigil.com",
+    },
   },
   namedAccounts: {
     deployer: 0,
